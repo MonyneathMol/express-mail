@@ -37,7 +37,7 @@ app.post("/send-mail", async (req, res) => {
 
         const mailOptions = {
             from: process.env.EMAIL_USER,
-            to,
+            to:'phan.baochi@the-ascott.com',
             subject,
             text,
         };
